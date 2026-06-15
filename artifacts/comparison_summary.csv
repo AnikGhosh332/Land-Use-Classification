@@ -1,0 +1,4 @@
+variant,channels,test_acc,macro_f1,acc_delta
+rgb_baseline,3,0.943,0.9424,0.0
+rgb_indices,6,0.9591,0.9571,0.0161
+ms_allbands,12,0.9696,0.9687,0.0267

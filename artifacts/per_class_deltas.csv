@@ -1,0 +1,11 @@
+class,rgb_f1,rgb_indices_Δf1,ms_allbands_Δf1
+AnnualCrop,0.904,0.046,0.049
+Forest,0.982,0.0,0.007
+HerbaceousVegetation,0.92,0.023,0.052
+Highway,0.941,0.03,0.024
+Industrial,0.966,-0.013,0.004
+Pasture,0.951,-0.043,0.002
+PermanentCrop,0.88,0.044,0.066
+Residential,0.982,-0.021,-0.013
+River,0.916,0.066,0.061
+SeaLake,0.982,0.015,0.012
