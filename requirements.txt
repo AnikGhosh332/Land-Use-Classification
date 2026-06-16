@@ -1,0 +1,25 @@
+# Land-Use Classification from Multispectral Satellite Imagery
+# Python 3.10+
+#
+# Install with:  pip install -r requirements.txt
+#
+# Note on PyTorch: the line below installs the default build. For CUDA GPUs,
+# install the matching build from https://pytorch.org/get-started/locally/
+# instead. Apple Silicon (MPS) is supported by the default build.
+
+# --- Core scientific stack ---
+numpy>=1.24,<2.0
+pandas>=2.0
+matplotlib>=3.7
+
+# --- Imagery I/O ---
+Pillow>=10.0          # RGB JPG reading (imported as PIL)
+rasterio>=1.3         # 13-band Sentinel-2 GeoTIFF reading
+
+# --- Machine learning ---
+scikit-learn>=1.3     # split, metrics, classification_report (imported as sklearn)
+torch>=2.1            # compact CNN; CPU / CUDA / Apple MPS
+
+# --- Notebook runtime ---
+jupyter>=1.0
+ipykernel>=6.0
