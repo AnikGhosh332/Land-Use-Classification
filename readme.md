@@ -125,6 +125,14 @@ and scikit-learn. The stratified 80/20 split is computed once, written to `data_
 and read by every model, so the comparison is fair and repeatable. Per-channel normalisation
 statistics are computed on the training data only, to avoid leakage into the test set.
 
+### Reproducing the results from the command line
+
+To run the entire pipeline non-interactively and regenerate all metrics, artifacts, and figures:
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace main.ipynb
+```
+
 Expected runtime on CPU is roughly 20 to 60 minutes per CNN model depending on hardware,
 and a few minutes for the Random Forest feature extraction (which is cached to
 `artifacts/rf_features.csv` so re-runs are faster). Training is considerably quicker on a
@@ -135,6 +143,7 @@ are repeatable. Across different hardware (CPU versus GPU versus Apple MPS), sma
 floating-point differences can appear in the final decimals, which is normal for deep
 learning and does not change the conclusions.
 
+
 ## Outputs
 
 After a full run the following are produced:
@@ -142,6 +151,7 @@ After a full run the following are produced:
 - `artifacts/` contains per-model metrics (`*_metrics.json`), per-patch test predictions
   (`*_test_predictions.csv`), trained model weights (`*.pt`), the comparison tables, and the
   Random Forest results.
+- `artifacts/` contains per-model metrics (`*_metrics.json`), per-patch test predictions (`*_test_predictions.csv`),    trained model weights (`*.pt`), the comparison tables (`comparison_summary.csv`, `per_class_deltas.csv`), and the Random Forest results (`rf_results.json`, `rf_feature_importance.csv`, `rf_features.csv`).
 - `visualisations/` contains all figures, including the per-class F1 comparison, the
   confusion-difference matrix, sample predictions, and the Random Forest feature importance.
 

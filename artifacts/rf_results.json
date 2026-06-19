@@ -1,0 +1,120 @@
+{
+  "rf_rgb": {
+    "acc": 0.7644444444444445,
+    "macro_f1": 0.7549557253094266,
+    "n_features": 6
+  },
+  "rf_full": {
+    "acc": 0.895,
+    "macro_f1": 0.890237584986559,
+    "n_features": 29
+  },
+  "non_rgb_importance_share": 0.7499769457648354,
+  "top_impurity": [
+    {
+      "feature": "B02_Blue_std",
+      "importance": 0.08364181312003048,
+      "type": "RGB"
+    },
+    {
+      "feature": "B10_Cirrus_mean",
+      "importance": 0.052588831233705516,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B03_Green_std",
+      "importance": 0.051336683122378074,
+      "type": "RGB"
+    },
+    {
+      "feature": "B12_SWIR2_mean",
+      "importance": 0.04897821813765611,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B01_Aerosol_std",
+      "importance": 0.04354363611316928,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B04_Red_std",
+      "importance": 0.04328703839796852,
+      "type": "RGB"
+    },
+    {
+      "feature": "B08_NIR_std",
+      "importance": 0.043130388320725,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B12_SWIR2_std",
+      "importance": 0.041320479907799856,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B08_NIR_mean",
+      "importance": 0.04024183407023308,
+      "type": "non-RGB"
+    },
+    {
+      "feature": "B08A_RedEdge4_mean",
+      "importance": 0.038979636397269285,
+      "type": "non-RGB"
+    }
+  ],
+  "top_permutation": [
+    {
+      "feature": "B02_Blue_std",
+      "perm_importance": 0.04773333333333331,
+      "std": 0.004734741574550606
+    },
+    {
+      "feature": "B01_Aerosol_std",
+      "perm_importance": 0.04119999999999996,
+      "std": 0.003235909626536417
+    },
+    {
+      "feature": "B08_NIR_std",
+      "perm_importance": 0.022666666666666658,
+      "std": 0.004022160834399562
+    },
+    {
+      "feature": "B10_Cirrus_std",
+      "perm_importance": 0.020866666666666655,
+      "std": 0.002765662468358865
+    },
+    {
+      "feature": "B08A_RedEdge4_mean",
+      "perm_importance": 0.011799999999999977,
+      "std": 0.0029522119767312624
+    },
+    {
+      "feature": "B03_Green_std",
+      "perm_importance": 0.009733333333333306,
+      "std": 0.0036049348892255484
+    },
+    {
+      "feature": "B05_RedEdge1_mean",
+      "perm_importance": 0.009666666666666634,
+      "std": 0.0022558565754251434
+    },
+    {
+      "feature": "B10_Cirrus_mean",
+      "perm_importance": 0.008999999999999975,
+      "std": 0.0028323527714997393
+    },
+    {
+      "feature": "B11_SWIR1_std",
+      "perm_importance": 0.0063999999999999726,
+      "std": 0.002274496281230929
+    },
+    {
+      "feature": "B09_WaterVapour_mean",
+      "perm_importance": 0.00639999999999995,
+      "std": 0.0015549205052920688
+    }
+  ],
+  "veg_gain": 0.036500000000000005,
+  "nonveg_gain": 0.018,
+  "seed": 42
+}
