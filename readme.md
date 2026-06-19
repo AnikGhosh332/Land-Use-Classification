@@ -148,9 +148,6 @@ learning and does not change the conclusions.
 
 After a full run the following are produced:
 
-- `artifacts/` contains per-model metrics (`*_metrics.json`), per-patch test predictions
-  (`*_test_predictions.csv`), trained model weights (`*.pt`), the comparison tables, and the
-  Random Forest results.
 - `artifacts/` contains per-model metrics (`*_metrics.json`), per-patch test predictions (`*_test_predictions.csv`),    trained model weights (`*.pt`), the comparison tables (`comparison_summary.csv`, `per_class_deltas.csv`), and the Random Forest results (`rf_results.json`, `rf_feature_importance.csv`, `rf_features.csv`).
 - `visualisations/` contains all figures, including the per-class F1 comparison, the
   confusion-difference matrix, sample predictions, and the Random Forest feature importance.
