@@ -29,7 +29,6 @@ of total feature importance and adding 13 points of accuracy over an RGB-only fe
 ```
 .
 ├── main.ipynb                 # Main notebook (run this end to end)
-├── main_old.ipynb             # Earlier working version, kept for reference
 ├── requirements.txt           # Python dependencies
 ├── data_index.csv             # Persisted patch index + 80/20 split (regenerated on run)
 ├── datasets/                  # Datasets (not included, see Setup below)
